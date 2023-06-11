@@ -1,0 +1,50 @@
+body {
+  background: blue; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url('C:/users/admin/devillo/image/bob.jpg');
+}
+
+.form {
+ /* background-image: url('C:/users/admin/devillo/image/wit.jpg');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-color: rgba(255, 255, 255, 1); /* Set the alpha value (0.5 for 50% transparency) */
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+   height: 500px; 
+}
+
+.form__logo {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.form-body {
+  text-align: center;
+  padding-top: 200px;
+  
+}
+
+.form-body > * {
+  padding: 5px;
+}
+
+.form__label {
+  width: 40%;
+  font-weight: bold; /* Bolden the text */
+}
+
+.form__input {
+  width: 60%;
+}
+
+.footer {
+  text-align: center;
+}

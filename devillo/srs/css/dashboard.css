@@ -1,0 +1,173 @@
+.task-manager {
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .left-bar {
+    background-color: #252e3f;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+  }
+  
+  .left-content {
+    padding: 20px 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .action-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .action-list li:hover {
+    background-color: #1e2738;
+  }
+  
+  .action-list li svg {
+    margin-right: 10px;
+  }
+  
+  .category-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .category-list li:hover {
+    background-color: #1e2738;
+  }
+  
+  .category-list li svg {
+    margin-right: 10px;
+  }
+  
+  .page-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .header {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .content-categories {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .label-wrapper {
+    margin-right: 10px;
+  }
+  
+  .label-wrapper input[type="radio"] {
+    display: none;
+  }
+  
+  .label-wrapper .category {
+    padding: 5px 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .label-wrapper .category:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .label-wrapper input[type="radio"]:checked + .category {
+    background-color: #1e2738;
+    color: #fff;
+    border-color: #1e2738;
+  }
+  
+  .tasks-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .task-item {
+    margin-right: 10px;
+  }
+  
+  .label-text {
+    flex: 1;
+  }
+  
+  .tag {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  
+  .approved {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .progress {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  .review {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  .waiting {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .right-bar {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .right-bar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .task-details {
+    margin-bottom: 20px;
+  }
+  
+  .task-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  .task-details p {
+    margin-bottom: 5px;
+  }
+  
+  .task-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .task-buttons button {
+    padding: 10px 20px;
+    margin-left: 10px;
+  }
